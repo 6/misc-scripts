@@ -9,4 +9,4 @@ Edit `sites` to insert your own app URLs. Blank lines and lines starting with `#
 
 Open your crontab file with `crontab -e` and insert the following line (making changes where necessary):
 
-    0,30 * * * * python /path/to/keep-it-running/run.py > /dev/null 2>&1
+    0,30 * * * * /path/to/keep-it-running/run.py /path/to/keep-it-running/sites > /dev/null 2>&1
