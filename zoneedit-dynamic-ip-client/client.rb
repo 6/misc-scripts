@@ -1,3 +1,4 @@
+#!/usr/bin/env ruby
 require "open-uri"
 username = "YOUR_USERNAME"
 password = "YOUR_PASSWORD"
