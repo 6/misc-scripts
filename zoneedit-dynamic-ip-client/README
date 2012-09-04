@@ -1,0 +1,3 @@
+If you run this script too often, you'll get: "Update failed: Too many updates too quickly, try again later."
+
+Try putting it on a cronjob to run every 5 minutes or so.
